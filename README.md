@@ -8,7 +8,10 @@ This has been forked from jqGrid 4.7.0, git commit
 to be released under the MIT/GPL2 license.
 
 This fork aims to fix small bugs in the code and generally keep up to
-date with the latest versions of jQuery and jQuery UI.
+date with the latest versions of jQuery and jQuery UI.  I will not
+make any attempts to keep up with the original jqGrid.  If this is
+what you need, please take a look at https://github.com/free-jqgrid/jqGrid
+
 
 I do not expect that I will ever submit a pull request to the parent
 project, but if you feel like I should, please let me know and I'll
