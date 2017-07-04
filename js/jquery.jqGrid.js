@@ -4,10 +4,11 @@
 /**
  * @license jqGrid  4.7.0 - jQuery Grid
  * Copyright (c) 2008, Tony Tomov, tony@trirand.com
+ * Copyright (c) 2017, Bulent Yilmaz
  * Dual licensed under the MIT and GPL licenses
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl-2.0.html
- * Date: 2014-12-08
+ * Date: 2017-07-04
  */
 //jsHint options
 /*jshint evil:true, eqeqeq:false, eqnull:true, devel:true */
@@ -12711,7 +12712,7 @@ open:function(s,t){var h=H[s],c=h.c,cc='.'+c.closeClass,z=(parseInt(h.w.css('z-i
  if(c.toTop&&h.o)h.w.before('<span id="jqmP'+h.w[0]._jqm+'"></span>').insertAfter(h.o);	
  (c.onShow)?c.onShow(h):h.w.show();e(h);return F;
 },
-close:function(s){var h=H[s];if(!h.a)return F;h.a=F;
+close:function(s){var h=H[s];if((!h) || (!h.a)) return F;h.a=F;
  if(A[0]){A.pop();if(!A[0])L('unbind');}
  if(h.c.toTop&&h.o)$('#jqmP'+h.w[0]._jqm).after(h.w).remove();
  if(h.c.onHide)h.c.onHide(h);else{h.w.hide();if(h.o)h.o.remove();} return F;
