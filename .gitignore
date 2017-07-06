@@ -1,4 +1,6 @@
 compiler.jar
+closure-compiler
+.*.swp
 yuicompressor.jar
 dist
 nbproject
