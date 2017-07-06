@@ -4,10 +4,11 @@
 /**
  * @license jqGrid  4.7.0 - jQuery Grid
  * Copyright (c) 2008, Tony Tomov, tony@trirand.com
+ * Copyright (c) 2017, Bulent Yilmaz
  * Dual licensed under the MIT and GPL licenses
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl-2.0.html
- * Date: 2014-12-08
+ * Date: 2014-07-06
  */
 //jsHint options
 /*jshint evil:true, eqeqeq:false, eqnull:true, devel:true */

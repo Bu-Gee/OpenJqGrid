@@ -1,3 +1,7 @@
+
+//
+// Imported from grid.base.js
+//
 // ==ClosureCompiler==
 // @compilation_level SIMPLE_OPTIMIZATIONS
 
@@ -8,7 +12,7 @@
  * Dual licensed under the MIT and GPL licenses
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl-2.0.html
- * Date: 2017-07-04
+ * Date: 2014-07-06
  */
 //jsHint options
 /*jshint evil:true, eqeqeq:false, eqnull:true, devel:true */
@@ -4013,6 +4017,11 @@ $.jgrid.extend({
 	}
 });
 })(jQuery);
+
+
+//
+// Imported from grid.celledit.js
+//
 /*jshint eqeqeq:false */
 /*global jQuery */
 (function($){
@@ -4509,6 +4518,11 @@ $.jgrid.extend({
 /// end  cell editing
 });
 })(jQuery);
+
+
+//
+// Imported from grid.common.js
+//
 /*jshint eqeqeq:false */
 /*global jQuery */
 (function($){
@@ -5198,6 +5212,11 @@ $.extend($.jgrid,{
 	}
 });
 })(jQuery);
+
+
+//
+// Imported from grid.custom.js
+//
 /*jshint eqeqeq:false */
 /*global jQuery */
 (function($){
@@ -6202,6 +6221,11 @@ $.jgrid.extend({
 	}
 });
 })(jQuery);
+
+
+//
+// Imported from grid.filter.js
+//
 /*
  * jqFilter  jQuery jqGrid filter addon.
  * Copyright (c) 2011, Tony Tomov, tony@trirand.com
@@ -6914,6 +6938,11 @@ $.extend($.fn.jqFilter,{
 
 });
 })(jQuery);
+
+
+//
+// Imported from grid.formedit.js
+//
 /*jshint eqeqeq:false, eqnull:true, devel:true */
 /*global xmlJsonClass, jQuery */
 (function($){
@@ -9027,6 +9056,11 @@ $.jgrid.extend({
 	}
 });
 })(jQuery);
+
+
+//
+// Imported from grid.grouping.js
+//
 /*jshint eqeqeq:false, eqnull:true */
 /*global jQuery */
 // Grouping module
@@ -9560,6 +9594,11 @@ $.jgrid.extend({
 	}
 });
 })(jQuery);
+
+
+//
+// Imported from grid.import.js
+//
 /*jshint eqeqeq:false, eqnull:true, devel:true */
 /*global jQuery, xmlJsonClass */
 (function($){
@@ -9775,6 +9814,11 @@ $.jgrid.extend({
         }
     });
 })(jQuery);
+
+
+//
+// Imported from grid.inlinedit.js
+//
 /*jshint eqeqeq:false, eqnull:true, devel:true */
 /*global jQuery */
 (function($){
@@ -10427,6 +10471,11 @@ $.jgrid.extend({
 //end inline edit
 });
 })(jQuery);
+
+
+//
+// Imported from grid.jqueryui.js
+//
 /*jshint evil:true, eqeqeq:false, eqnull:true, devel:true */
 /*global jQuery */
 (function($){
@@ -10988,6 +11037,11 @@ $.jgrid.extend({
 	}
 });
 })(jQuery);
+
+
+//
+// Imported from grid.pivot.js
+//
 /*jshint eqeqeq:false */
 /*global jQuery */
 (function($){
@@ -11493,6 +11547,11 @@ $.jgrid.extend({
 	}
 });
 })(jQuery);
+
+
+//
+// Imported from grid.subgrid.js
+//
 /*jshint eqeqeq:false */
 /*global jQuery */
 (function($){
@@ -11800,6 +11859,11 @@ toggleSubGridRow : function(rowid) {
 }
 });
 })(jQuery);
+
+
+//
+// Imported from grid.tbltogrid.js
+//
 /*
  Transform a table to a jqGrid.
  Peter Romianowski <peter.romianowski@optivo.de> 
@@ -11906,6 +11970,11 @@ jQuery(selector).each(function() {
 	}
 });
 };
+
+
+//
+// Imported from grid.treegrid.js
+//
 /**
  * jqGrid extension - Tree Grid
  * Tony Tomov tony@trirand.com
@@ -12588,6 +12657,11 @@ $.jgrid.extend({
 	}
 });
 })(jQuery);
+
+
+//
+// Imported from jqDnR.js
+//
 /*
  * jqDnR - Minimalistic Drag'n'Resize for jQuery.
  *
@@ -12658,7 +12732,12 @@ i=function(e,h,k,aR){
 },
 f=function(k){return parseInt(E.css(k),10)||false;},
 f1=function(k){return parseInt(E1.css(k),10)||false;};
-})(jQuery);/*
+})(jQuery);
+
+//
+// Imported from jqModal.js
+//
+/*
  * jqModal - Minimalist Modaling with jQuery
  *   (http://dev.iceburg.net/jquery/jqmodal/)
  *
@@ -12725,7 +12804,13 @@ L=function(t){$(document)[t]("keypress",m)[t]("keydown",m)[t]("mousedown",m);},
 m=function(e){var h=H[A[A.length-1]],r=(!$(e.target).parents('.jqmID'+h.s)[0]);if(r){$('.jqmID'+h.s).each(function(){var $self=$(this),offset=$self.offset();if(offset.top<=e.pageY && e.pageY<=offset.top+$self.height() && offset.left<=e.pageX && e.pageX<=offset.left+$self.width()){r=false;return false;}});f(h);}return !r;},
 hs=function(w,t,c){return w.each(function(){var s=this._jqm;$(t).each(function() {
  if(!this[c]){this[c]=[];$(this).click(function(){for(var i in {jqmShow:1,jqmHide:1})for(var s in this[i])if(H[this[i][s]])H[this[i][s]].w[i](this);return F;});}this[c].push(s);});});};
-})(jQuery);/*
+})(jQuery);
+
+
+//
+// Imported from jquery.fmatter.js
+//
+/*
 **
  * formatter for values but most of the values if for jqGrid
  * Some of this was inspired and based on how YUI does the table datagrid but in jQuery fashion
@@ -13192,6 +13277,11 @@ hs=function(w,t,c){return w.each(function(){var s=this._jqm;$(t).each(function()
 		return $.fn.fmatter.defaultFormat(cellval, opts);
 	};
 })(jQuery);
+
+
+//
+// Imported from JsonXml.js
+//
 /*
 	The below work is licensed under Creative Commons GNU LGPL License.
 
